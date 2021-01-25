@@ -178,11 +178,11 @@ public class Group7Assignment {
 		double mpayment2 = rate2 + (amount/12);
 		double mpayment3 = rate3 + (amount/12);
 		if(amount>=100000) {
-			System.out.printf("Monthy payment  : RM%.2f ", mpayment1);
+			System.out.printf("Monthly payment  : RM%.2f ", mpayment1);
 		}else if(amount<100000 && amount>=50000){
-			System.out.printf("Monthy payment  : RM%.2f ", mpayment2);
+			System.out.printf("Monthly payment  : RM%.2f ", mpayment2);
 		}else
-			System.out.printf("Monthy payment  : RM%.2f ", mpayment3);
+			System.out.printf("Monthly payment  : RM%.2f ", mpayment3);
 		System.out.println();
 		
 		double tpayback1 = tinterestloan1+ amount;
